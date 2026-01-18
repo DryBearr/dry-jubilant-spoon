@@ -27,5 +27,3 @@ go run ./cmd/app
 export DISCORD_TOKEN=\"YOUR_DISCORD_BOT_TOKEN\"
 go run ./cmd/app -guild \"YOUR_GUILD_ID\" -verbose
 ```
-```
-```
