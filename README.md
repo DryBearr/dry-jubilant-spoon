@@ -5,7 +5,7 @@
 ### Run with flags
 
 ```bash
-go run ./cmd/app -token \"YOUR_DISCORD_BOT_TOKEN\" -guild \"YOUR_GUILD_ID\" -verbose
+go run ./cmd/app -token "YOUR_DISCORD_BOT_TOKEN" -guild "YOUR_GUILD_ID" -verbose
 ```
 
 Flags:
@@ -16,14 +16,14 @@ Flags:
 ### Run without flags (environment variables)
 
 ```bash
-export DISCORD_TOKEN=\"YOUR_DISCORD_BOT_TOKEN\"
-export DISCORD_GUILD_ID=\"YOUR_GUILD_ID\"   # optional
+export DISCORD_TOKEN="YOUR_DISCORD_BOT_TOKEN"
+export DISCORD_GUILD_ID="YOUR_GUILD_ID"   # optional
 go run ./cmd/app
 ```
 
 ### Mixed usage (token via env, flags for the rest)
 ```bash
 
-export DISCORD_TOKEN=\"YOUR_DISCORD_BOT_TOKEN\"
+export DISCORD_TOKEN="YOUR_DISCORD_BOT_TOKEN"
 go run ./cmd/app -guild \"YOUR_GUILD_ID\" -verbose
 ```
