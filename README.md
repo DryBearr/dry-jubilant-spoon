@@ -4,8 +4,6 @@
 
 ### Run with flags
 
-```
-```
 ```bash
 go run ./cmd/app -token \"YOUR_DISCORD_BOT_TOKEN\" -guild \"YOUR_GUILD_ID\" -verbose
 ```
